@@ -126,6 +126,7 @@ module.exports = {
     devtool: 'inline-source-map',
     devServer: {
         clientLogLevel: 'warning',
+        open: true,
         hot: true,
         historyApiFallback: true,
         stats: 'errors-only'
